@@ -420,7 +420,7 @@ function ckplayerLoad(data) {
        
         } else {
             if (data['ext'] == 'm3u8' || data['ext'] == 'm3u8_list') {
-                var flashvars = { f: '/ckplayer/m3u8.swf', a: escape(data['url']), c: 0, s: 4, lv: 0, p: 1, v: 100, loaded: 'error' };
+                var flashvars = { f: 'https://cdn.jsdelivr.net/gh/lldy/js@v1.5/yun/ckplayer/m3u8.swf', a: escape(data['url']), c: 0, s: 4, lv: 0, p: 1, v: 100, loaded: 'error' };
             } else if (data['ext'] == 'mp4') {
 
                 var flashvars = { f: data['url'], c: 0, s: 0, p: 1, v: 100, h: 3, loaded: 'error' };
