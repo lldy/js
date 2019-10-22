@@ -432,7 +432,7 @@ function ckplayerLoad(data) {
                 var flashvars = { f: data['url'], c: 0, s: 2, p: 1, v: 100, h: 4 };
             }
             var params = { bgcolor: '#FFF', allowFullScreen: true, allowScriptAccess: 'always', wmode: 'transparent' };
-            CKobject.embedSWF('/ckplayer/ks/ckplayer.swf', 'a1', 'ckplayer_a1', '100%', '100%', flashvars, params);
+            CKobject.embedSWF('https://cdn.jsdelivr.net/gh/lldy/js@v1.5/yun/ckplayer/ckplayer.swf', 'a1', 'ckplayer_a1', '100%', '100%', flashvars, params);
 
         }
 
