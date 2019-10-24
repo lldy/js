@@ -487,7 +487,7 @@ function Dplayer_Load(data) {
           contextmenu: [
         {
             text: '交流群',
-            link: 'https://jq.qq.com/?_wv=1027&k=5AsIMME'
+            link: 'https://jq.qq.com/?_wv=1027&k=54mWmDi'
         }
        
     ]
@@ -595,12 +595,16 @@ function isIE() {
  })();
 
  (function () {
+  var isiPad = navigator.userAgent.match(/iPad|iPhone|Android|Linux|iPod/i) != null;
+  if(isiPad)
+  {
    document.getElementById('show').style.display = 'block';
     document.getElementById('show').onclick = function () {
         document.getElementById('show').style.display = 'none';
         if (dp != null) dp.play();
         var vp = document.getElementById("videoPlayer");
         if (vp != null) vp.play()
+    }
     }
      })();
   
