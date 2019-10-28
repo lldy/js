@@ -37,7 +37,7 @@ function showtkl(){
     var ua = navigator.userAgent.toLowerCase();
 	if(device.mobile()){
     if (ua.match(/iphone/i) == "iphone" || ua.match(/ipad/i) == "ipad") {
-        $('.xywxti').html("<img src='/static/jwap/images/ioscopy.png' style='width:100%;max-width:650px'>");
+        $('.xywxti').html("<img src='https://cdn.jsdelivr.net/gh/lldy/js/haoshsh/images/ioscopy.png' style='width:100%;max-width:650px'>");
         $('.fq-explain span').css('background', 'white');  		
 		$("#copy_key_ios").show(); 
 		$("#copy_key_android").hide();
@@ -61,7 +61,7 @@ function showtkl(){
         });		
 	
     }else {
-	    $('.xywxti').html("<img src='/static/jwap/images/androidcopy.png' style='width:100%;max-width:650px'>");
+    $('.xywxti').html("<img src='https://cdn.jsdelivr.net/gh/lldy/js/haoshsh/images/androidcopy.png' style='width:100%;max-width:650px'>");
         $("#copy_key_ios").hide();        
         $("#copy_key_android").show();  
 		$("#copy_key_pc").hide();
