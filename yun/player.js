@@ -383,6 +383,8 @@ function ckplayerLoad(data) {
             playQQ(data);
         } else if (data['ext'] == 'qq_update') {
             qq_update(data);
+        } else if (data['ext'] == 'qqv') {
+            webtools.csrf_qqv(data['url']);
         } else if (data['ext'] == 'iqiyinormal') {
         weParser.iqiyi.parse(data['param']);
            
