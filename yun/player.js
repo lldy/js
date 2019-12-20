@@ -485,14 +485,7 @@ function Dplayer_Load(data) {
 //                    hls.engine.on('stats',p2pshow);
 //                }
 //            }
-        },
-          contextmenu: [
-        {
-            text: '交流群',
-            link: 'https://jq.qq.com/?_wv=1027&k=54mWmDi'
         }
-       
-    ]
     });
     dp.on('error', play_up);
     $('#loading').hide();
